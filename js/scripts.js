@@ -16,6 +16,10 @@ $(document).ready(function() {
     travelLog.addPlace(newPlace);
     $(".output").show();
     $(".output").prepend("<li>" + newPlace.name  + "<button class='btn remove' type='button' name='button'>" + "Remove" + "</button>" + "</li>");
+
+    $("li").click(function(){
+      $(this).remove();
+    });
   });
 });
 
