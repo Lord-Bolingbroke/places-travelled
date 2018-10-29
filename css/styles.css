@@ -1,0 +1,11 @@
+button {
+  background-color: #DFDFDF;
+}
+
+.remove {
+  margin-left: 15px;
+}
+
+.output {
+  display: none;
+}
